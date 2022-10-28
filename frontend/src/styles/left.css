@@ -1,0 +1,60 @@
+.left {
+    width: 280px;
+    height: 100%;
+    min-height: 100vh;
+    background: rgba(34, 34, 34, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 25px 20px;
+    overflow: hidden;
+    transition: all 0.3s;
+  }
+  
+  .logocontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f1f1f1;
+  }
+
+  .left .logocontainer i{
+    font-size: 25px;
+  }
+
+  .left .logocontainer i:nth-child(3)
+  {
+    font-size: 20px;
+  }
+  
+  .searchbox {
+  width: 100%;
+  height: 45px;
+  position: relative;
+  margin-top: 20px;
+  color: #848484;
+  overflow: hidden;
+  border-radius: 10px;
+  }
+
+  .searchbox input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    padding-left: 45px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+
+  }
+
+  .searchbox i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+  }
